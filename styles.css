@@ -8,23 +8,27 @@ body{
 }
 nav {
     background-color: #ed6262;
+    height: auto;
+
 }
 
-nav ul {
+nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly; 
     align-items: center;
-    margin: 0;
-    padding: 0;
+   
 }
 
 nav a {
     color: black;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    font-family:"Calibri", sans-serif;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ letter-spacing: 2px;
+
 }
 
 #navimg {
@@ -50,6 +54,7 @@ nav a {
 .heading{
     margin-top: 4rem;
     letter-spacing: .5rem;
+    font-size: 3rem;
 }
 p{
     margin: 3.5rem auto;
@@ -120,7 +125,6 @@ h1{
 }
 
 
-
 /* Media queries */
 @media screen and (min-width: 800px) {
     .grid-container {
@@ -181,5 +185,9 @@ h1{
     .items {
         grid-row: span 2; 
         margin: auto;
+    }
+    .arrow{
+        width: 1rem;
+        margin-left: 8px;
     }
 }
